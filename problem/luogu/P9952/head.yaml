@@ -1,0 +1,18 @@
+oj: luogu
+problem: P9952
+title: '[USACO20OPEN] Social Distancing I B'
+tags:
+- 贪心
+- 二分
+description: '一种新型疾病，COWVID-19，开始在全世界的奶牛之间传播。Farmer John 正在采取尽可能多的预防措施来防止他的牛群被感染。
+
+
+  Farmer John 的牛棚是一个狭长的建筑物，有一排共 $N$ 个牛栏（$2\le N\le 10^5$）。有些牛栏里目前有奶牛，有些目前空着。得知“社交距离”的重要性，Farmer
+  John 希望使得 $D$ 尽可能大，其中 $D$ 为最近的两个有奶牛的牛栏的距离。例如，如果牛栏 $3$ 和 $8$ 是最近的有奶牛的牛栏，那么 $D=5$。
+
+
+  最近两头奶牛新来到 Farmer John 的牛群，他需要决定将她们分配到哪两个之前空着的牛栏。请求出他如何放置这两头新来的奶牛，使得 $D$ 仍然尽可能大。Farmer
+  John 不能移动任何已有的奶牛；他只想要给新来的奶牛分配牛栏。'
+difficulty: 普及/提高-
+source: https://www.luogu.com.cn/problem/P9952
+common: []

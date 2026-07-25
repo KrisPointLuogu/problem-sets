@@ -1,0 +1,1 @@
+// dont use because i use bin search answer.

@@ -1,0 +1,34 @@
+oj: luogu
+problem: P12024
+title: '[USACO25OPEN] It''s Mooin'' Time III B'
+tags:
+- 二分
+- 枚举
+description: 'Elsie 正在试图向 Bessie 描述她最喜欢的 USACO 竞赛，但 Bessie 很难理解为什么 Elsie 这么喜欢它。Elsie
+  说「现在是哞哞时间！谁想哞哞？拜托，我只想参加 USACO」。
+
+
+  Bessie 仍然不理解，于是她将 Elsie 的描述转文字得到了一个长为 $N$（$3 \leq N \leq 10^5$）的字符串，包含小写字母字符 $s_1s_2
+  \ldots s_N$。Elsie 认为一个包含三个字符的字符串 $t$ 是一个哞叫，如果 $t_2 = t_3$ 且 $t_2 \neq t_1$。
+
+
+  一个三元组 $(i, j, k)$ 是合法的，如果 $i < j < k$ 且字符串 $s_i s_j s_k$ 组成一个哞叫。对于该三元组，FJ 执行以下操作计算其值：
+
+
+  - FJ 将字符串 $s$ 在索引 $j$ 处弯曲 90 度
+
+  - 该三元组的值是 $\Delta ijk$ 的面积的两倍。
+
+
+  换句话说，该三元组的值等于 $(j-i)(k-j)$。
+
+
+  Bessie 向你进行 $Q$（$1 \leq Q \leq 3 \cdot 10^4$）个查询。在每个查询中，她给你两个整数 $l$ 和 $r$（$1 \leq
+  l \leq r \leq N$，$r-l+1 \ge 3$），并询问满足 $l \leq i$ 和 $k \leq r$ 的所有合法三元组 $(i, j, k)$
+  的最大值。如果不存在合法的三元组，输出 $-1$。
+
+
+  注意这个问题涉及到的整数可能需要使用 64 位整数类型（例如，C/C++ 中的 `long long`）。'
+difficulty: 普及+/提高
+source: https://www.luogu.com.cn/problem/P12024
+common: []
