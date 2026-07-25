@@ -1,0 +1,13 @@
+oj: luogu
+problem: P11837
+title: '[USACO25FEB] Making Mexes B'
+tags:
+- 贪心
+description: '给定一个包含 $N$ 个非负整数的数组 $a$，$a_1, a_2, \dots, a_N$（$1\le N\le 2\cdot 10^5$，$0\le
+  a_i\le N$）。在一次操作中，你可以将 $a$ 的任一元素修改为任意非负整数。
+
+
+  一个数组的 mex 是它不包含的最小非负整数。对于范围 $0$ 到 $N$ 内的每一个 $i$，计算使 $a$ 的 mex 等于 $i$ 所需要的最小操作次数。'
+difficulty: 普及-
+source: https://www.luogu.com.cn/problem/P11837
+common: []

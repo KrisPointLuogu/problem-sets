@@ -1,0 +1,17 @@
+oj: luogu
+problem: P11668
+title: '[USACO25JAN] It''s Mooin'' Time II B'
+tags:
+- 贪心
+description: 'Farmer John 正在试图向 Elsie 描述他最喜欢的 USACO 竞赛，但她很难理解为什么他这么喜欢它。他说「竞赛中我最喜欢的部分是
+  Bessie 说 『现在是哞哞时间』并在整个竞赛中一直哞哞叫」。
+
+
+  Elsie 仍然不理解，所以 Farmer John 将竞赛以文本文件形式下载，并试图解释他的意思。竞赛被定义为一个包含 $N$（$1\le N\le 10^6$）个整数的数组
+  $a_1, a_2, \dots, a_N$（$1\le a_i\le N$）。Farmer John 定义哞叫为一个包含三个整数的数组，其中第二个整数等于第三个整数，但不等于第一个整数。一种哞叫被称为在竞赛中发生，如果可以从数组中移除整数，直到只剩下这一哞叫。
+
+
+  由于 Bessie 据称「在整个竞赛中一直哞哞叫」，请帮助 Elsie 计算竞赛中发生的不同哞叫的数量！两种哞叫是不同的，如果它们并非由相同的整数以相同的顺序组成。'
+difficulty: 普及/提高-
+source: https://www.luogu.com.cn/problem/P11668
+common: []
