@@ -1,0 +1,18 @@
+oj: luogu
+problem: P11451
+title: '[USACO24DEC] It''s Mooin'' Time B'
+tags:
+- 字符串
+description: 'Farmer John 正在试图向 Elsie 描述他最喜欢的 USACO 竞赛，但她很难理解为什么他这么喜欢它。他说「竞赛中我最喜欢的部分是
+  Bessie 说 『现在是哞哞时间』并在整个竞赛中一直哞哞叫」。
+
+
+  Elsie 仍然不理解，所以 Farmer John 将竞赛以文本文件形式下载，并试图解释他的意思。竞赛被定义为一个长度为 $N$（$3≤N≤20000$）的小写字母字符串。一种哞叫一般地定义为子串
+  $c_ic_jc_j$，其中某字符 $c_i$ 之后紧跟着 $2$ 个某字符 $c_j$，且 $c_i≠c_j$。根据 Farmer John 的说法，Bessie
+  哞叫了很多，所以如果某种哞叫在竞赛中出现了至少 $F$（$1≤F≤N$）次，那可能就是 Bessie 发出的。
+
+
+  然而，Farmer John 的下载可能损坏，文本文件可能存在至多一个字符与原始文件不同。将可能的误差考虑在内，输出所有可能是 Bessie 发出的哞叫，按字典序顺序排序。'
+difficulty: 普及/提高-
+source: https://www.luogu.com.cn/problem/P11451
+common: []
