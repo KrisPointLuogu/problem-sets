@@ -6,7 +6,7 @@ tags:
 - DFS
 - 记忆化搜索
 description: 棋盘上过河卒从A点到B点的路径计数，马的控制点不可经过。
-difficulty: 普及-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P1002
 common:
 - P1003

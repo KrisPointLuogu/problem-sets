@@ -6,7 +6,7 @@ tags:
 - DFS
 - 记忆化搜索
 description: 数字金字塔从顶到底的路径最大和。
-difficulty: 普及-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P1216
 common:
 - P1002

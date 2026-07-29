@@ -6,7 +6,7 @@ tags:
 - 贪心
 - 前缀和
 description: 合并卡牌获得的最大总分。
-difficulty: 普及-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P6625
 common:
 - P1209

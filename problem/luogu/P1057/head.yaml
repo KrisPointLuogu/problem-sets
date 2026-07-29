@@ -6,7 +6,7 @@ tags:
 - DFS
 - 记忆化搜索
 description: n个人围成一圈传球，求传m次后回到1号手中的方法数。
-difficulty: 普及/提高-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P1057
 common:
 - P1058

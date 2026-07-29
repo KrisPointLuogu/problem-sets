@@ -1,4 +1,4 @@
-# 「EZEC-11」等差数列
+# P8177 「EZEC-11」等差数列
 
 ## 题目描述
 
@@ -29,20 +29,22 @@
 
 ## 输入输出样例 #1
 
-**输入**
+### 输入 #1
+
 ```
 2
 3 1 1
 2 2 2
 ```
 
-**输出**
+### 输出 #1
+
 ```
 0
 1
 ```
 
-## 提示
+## 说明/提示
 
 **【样例 1 解释】**
 
@@ -54,9 +56,9 @@
 
 **本题采用捆绑测试。**
 
--  Subtask 1（10 points）：$d=1$。
--  Subtask 2（10 points）：$n=2$。
--  Subtask 3（30 points）：$T\le 10$，$n\times d\le 10^3$，$a=0$。
--  Subtask 4（50 points）：无特殊限制。
+- Subtask 1（10 points）：$d=1$。
+- Subtask 2（10 points）：$n=2$。
+- Subtask 3（30 points）：$T\le 10$，$n\times d\le 10^3$，$a=0$。
+- Subtask 4（50 points）：无特殊限制。
 
 对于 $100\%$ 的数据，$1\le T\le 10^5$，$2\le n\le 10^9$，$-10^9\le a\le 10^9$，$1\le d\le 10^9$。

@@ -6,7 +6,7 @@ tags:
 - 位运算
 - lowbit
 description: 等差数列中插入中点的最大操作数。
-difficulty: 普及-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P8177
 common:
 - P8178

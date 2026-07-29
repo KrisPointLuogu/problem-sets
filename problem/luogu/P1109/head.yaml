@@ -4,8 +4,7 @@ title: 学生分组
 tags:
 - 模拟
 - 贪心
-description: 有 $n$ 组学生，给出初始时每组中的学生个数，再给出每组学生人数的上界 $R$ 和下界 $L\ (L \le R)$，每次你可以在某组中选出一个学生把他安排到另外一组中，问最少要多少次才可以使
-  $N$ 组学生的人数都在 $[L,R]$ 中。
+description: ''
 difficulty: 普及-
 source: https://www.luogu.com.cn/problem/P1109
 common:

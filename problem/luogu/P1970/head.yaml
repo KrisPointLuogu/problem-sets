@@ -5,7 +5,7 @@ tags:
 - DP
 - 贪心
 description: 求最长摆动子序列。
-difficulty: 普及/提高-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P1970
 common:
 - P1351

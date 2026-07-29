@@ -6,7 +6,7 @@ tags:
 - 前缀和
 - 贪心
 description: 求连续非空子段的最大和。
-difficulty: 普及-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P1115
 common:
 - P1048

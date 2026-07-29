@@ -6,7 +6,7 @@ tags:
 - 解方程
 - 数论
 description: 解二次方程求p,q。
-difficulty: 普及-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P8814
 common:
 - P8818

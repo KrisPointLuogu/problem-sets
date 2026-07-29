@@ -6,7 +6,7 @@ tags:
 - 数论
 - 取模
 description: 求[L,R]中k mod n的最大值。
-difficulty: 普及-
+difficulty: ''
 source: https://www.luogu.com.cn/problem/P7909
 common:
 - P5660
