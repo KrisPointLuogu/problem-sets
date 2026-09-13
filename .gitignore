@@ -8,3 +8,9 @@ random.out
 diff.sh
 maths
 .opencode
+*.out
+*.in
+out
+log
+*.zip
+data

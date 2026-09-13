@@ -1,0 +1,15 @@
+oj: luogu
+problem: P4552
+title: '[Poetize6] IncDec Sequence'
+tags:
+- 差分
+description: "给定一个长度为 $n$ 的数列 ${a_1,a_2,\\cdots,a_n}$，每次可以选择一个区间 $[l,r]$，使这个区间内的数都加\
+  \ $1$ 或者都减 $1$。 \n  \n请问至少需要多少次操作才能使数列中的所有数都一样，并求出在保证最少次数的前提下，最终得到的数列有多少种。"
+difficulty: 普及+/提高
+source: https://www.luogu.com.cn/problem/P4552
+common:
+- P1083
+- P2280
+- P2879
+- P3948
+- CF670C
