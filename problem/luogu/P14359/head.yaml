@@ -1,0 +1,28 @@
+oj: luogu
+problem: P14359
+title: '[CSP-J 2025] 异或和'
+tags:
+- 动态规划 DP
+- 贪心
+- 哈希 hashing
+- 前缀和
+- 位运算
+description: '小 R 有一个长度为 $n$ 的非负整数序列 $a_1, a_2, \dots, a_n$。定义一个区间 $[l, r]$ ($1 \leq
+  l \leq r \leq n$) 的权值为 $a_l, a_{l+1}, \dots, a_r$ 的二进制按位异或和，即 $a_l \oplus a_{l+1}
+  \oplus \dots \oplus a_r$，其中 $\oplus$ 表示二进制按位异或。
+
+
+  小 X 给了小 R 一个非负整数 $k$。小 X 希望小 R 选择序列中尽可能多的**不相交**的区间，使得每个区间的权值均为 $k$。两个区间 $[l_1,
+  r_1], [l_2, r_2]$ 相交当且仅当两个区间同时包含至少一个相同的下标，即存在 $1 \leq i \leq n$ 使得 $l_1 \leq i \leq
+  r_1$ 且 $l_2 \leq i \leq r_2$。
+
+
+  例如，对于序列 $[2, 1, 0, 3]$，若 $k = 2$，则小 R 可以选择区间 $[1, 1]$ 和区间 $[2, 4]$，权值分别为 $2$ 和 $1
+  \oplus 0 \oplus 3 = 2$；若 $k = 3$，则小 R 可以选择区间 $[1, 2]$ 和区间 $[4, 4]$，权值分别为 $1 \oplus
+  2 = 3$ 和 $3$。
+
+
+  你需要帮助小 R 求出他能选出的区间数量的最大值。'
+difficulty: 普及/提高-
+source: https://www.luogu.com.cn/problem/P14359
+common: []

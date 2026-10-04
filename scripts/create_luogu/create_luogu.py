@@ -114,7 +114,7 @@ def get_problem_description(problem_id):
         return ""
     problem = data["data"]["problem"]
     contenu = problem.get("contenu") or problem.get("content", {})
-    return contenu.get("description", "").strip()
+    return (contenu.get("description") or "").strip()
 
 
 def fetch_similar_problems(problem_id):
@@ -128,12 +128,12 @@ def fetch_similar_problems(problem_id):
 def build_problem_md(data):
     problem = data["data"]["problem"]
     contenu = problem.get("contenu") or problem.get("content", {})
-    title = contenu.get("name", problem.get("name", ""))
-    background = contenu.get("background", "").strip()
-    description = contenu.get("description", "").strip()
-    formatI = contenu.get("formatI", "").strip()
-    formatO = contenu.get("formatO", "").strip()
-    hint = contenu.get("hint", "").strip()
+    title = contenu.get("name") or problem.get("name") or ""
+    background = (contenu.get("background") or "").strip()
+    description = (contenu.get("description") or "").strip()
+    formatI = (contenu.get("formatI") or "").strip()
+    formatO = (contenu.get("formatO") or "").strip()
+    hint = (contenu.get("hint") or "").strip()
     samples = problem.get("samples", [])
 
     lines = []

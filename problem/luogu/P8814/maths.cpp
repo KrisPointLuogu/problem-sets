@@ -1,58 +1,41 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int k;
+long long k;
 
-int main(int argc, char const *argv[])
+long long ispow2(long long num)
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    long long b = floor(sqrt(num));
+    long long c = ceil(sqrt(num));
+    return b * b == num && c * c == num && c == b;
+}
 
+int main(long long argc, char const *argv[])
+{
     cin >> k;
-
     while (k--)
     {
         long long n, d, e;
         cin >> n >> d >> e;
-
         long long m = n - e * d + 2;
-
         long long delta = m * m - 4 * n;
-
-        if (delta < 0)
+        if (delta < 0 || !ispow2(delta))
         {
-            cout << "NO\n";
+            cout << "NO" << endl;
             continue;
         }
 
-        long long b2 = round(sqrt(delta));
-
-        if (b2 * b2 != delta)
+        long long p2 = m + sqrt(delta);
+        long long p = p2 / 2;
+        long long q = n / p;
+        if (p > q)
+            swap(p, q);
+        if (p <= 0 || q <= 0)
         {
-            cout << "NO\n";
+            cout << "NO" << endl;
             continue;
         }
-
-        long long c1 = m + b2;
-        long long c2 = m - b2;
-
-        if (c1 % 2 != 0 || c2 % 2 != 0 || c2 <= 0)
-        {
-            cout << "NO\n";
-            continue;
-        }
-
-        long long ll_p = c2 / 2;
-        long long q = c1 / 2;
-
-        if (ll_p * q == n)
-        {
-            cout << min(ll_p, q) << " " << max(ll_p, q) << "\n";
-        }
-        else
-        {
-            cout << "NO\n";
-        }
+        cout << p << " " << q << endl;
     }
     return 0;
 }

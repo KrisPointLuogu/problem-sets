@@ -1,0 +1,22 @@
+oj: luogu
+problem: P2887
+title: '[USACO07NOV] Sunscreen G'
+tags:
+- 动态规划 DP
+- 贪心
+description: '有 $C$ 头奶牛进行日光浴，第 $i$ 头奶牛需要 $minSPF[i]$ 到 $maxSPF[i]$ 单位强度之间的阳光。
+
+
+  每头奶牛在日光浴前必须涂防晒霜，防晒霜有 $L$ 种，涂上第 $i$ 种之后，身体接收到的阳光强度就会稳定为 $SPF[i]$，第 $i$ 种防晒霜有 $cover[i]$
+  瓶。
+
+
+  求最多可以满足多少头奶牛进行日光浴。'
+difficulty: 普及/提高-
+source: https://www.luogu.com.cn/problem/P2887
+common:
+- P1080
+- P1325
+- P2512
+- P2859
+- UVA1193

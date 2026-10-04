@@ -31,7 +31,6 @@ ll abs_ll(ll x)
     return x >= 0 ? x : -x;
 }
 
-// 把分数化成最简形式，并保证分母为正。
 Fraction make_fraction(ll num, ll den)
 {
     if (den < 0)
