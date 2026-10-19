@@ -1,0 +1,15 @@
+oj: luogu
+problem: P3371
+title: 【模板】单源最短路径（弱化版）
+tags:
+- 图论
+- 最短路
+description: 如题，给出一个有向图，请输出从某一点出发到所有点的最短路径长度。
+difficulty: 普及/提高-
+source: https://www.luogu.com.cn/problem/P3371
+common:
+- P1144
+- P1339
+- P1629
+- P3366
+- P4779

@@ -1,0 +1,14 @@
+oj: luogu
+problem: P3156
+title: 【深基15.例1】询问学号
+tags: []
+description: 有 $n(n \le 2 \times 10^6)$ 名同学陆陆续续进入教室。我们知道每名同学的学号（在 $1$ 到 $10^9$ 之间），按进教室的顺序给出。上课了，老师想知道第
+  $i$ 个进入教室的同学的学号是什么（最先进入教室的同学 $i=1$），询问次数不超过 $10^5$ 次。
+difficulty: 入门
+source: https://www.luogu.com.cn/problem/P3156
+common:
+- P1449
+- P1540
+- P1996
+- P3717
+- P3613

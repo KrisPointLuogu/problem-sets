@@ -1,0 +1,17 @@
+oj: luogu
+problem: P2580
+title: 于是他错误的点名开始了
+tags:
+- 字符串
+- 哈希 hashing
+- 字典树 Trie
+- STL
+description: 这之后校长任命你为特派探员，每天记录他的点名。校长会提供化学竞赛学生的人数和名单，而你需要告诉校长他有没有点错名。（为什么不直接不让他玩炉石。）
+difficulty: 普及/提高-
+source: https://www.luogu.com.cn/problem/P2580
+common:
+- P3375
+- P2922
+- P5149
+- P3808
+- P3879

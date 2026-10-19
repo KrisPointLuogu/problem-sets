@@ -60,7 +60,7 @@ git log --oneline -5
 ### 6. 执行
 
 ```
-git add -A && git commit -m "..."
+git add -A && git commit -s -m "..."
 ```
 
 ## 约束
